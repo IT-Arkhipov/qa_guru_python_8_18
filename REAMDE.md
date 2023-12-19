@@ -1,0 +1,23 @@
+### Poetry configuration project
+
+```commandline
+[tool.poetry]
+name = "qa-guru-python-8-18"
+version = "0.1.0"
+description = "Poetry configuration project"
+authors = ["Andrei Arkhipov <it.arkhipov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selene = "2.0.0rc4"
+pytest = "^7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+```
