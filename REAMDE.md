@@ -1,6 +1,6 @@
 ### Poetry configuration project
 
-```commandline
+```
 [tool.poetry]
 name = "qa-guru-python-8-18"
 version = "0.1.0"
